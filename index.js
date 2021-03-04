@@ -4,13 +4,13 @@ client.on('ready', () => {
 client.request('SET_ACTIVITY', {
 pid: process.pid,
 activity : {
-    state : "Playing Minecraft",
+    state : "Status",
     assets : {
         large_image : "logo",
-        large_text : "Join the server!",
+        large_text : "Large Text",
     },
-    buttons : [{label : "JOIN" , url : "https://discord.gg/M8b88fdmeb"}]
+    buttons : [{label : "Button1" , url : "https://discord.gg/M8b88fdmeb"}]
 },
 })
 })
-client.login({ clientId : "815978466067087371" }).catch(console.error);
+client.login({ clientId : "CLIENT ID HERE" }).catch(console.error);
