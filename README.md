@@ -7,6 +7,3 @@
 4. Edit the fields in `index.js` to configure your rich presence
 5. At the bottom of `index.js` enter your application's client ID, which can be found on the `General Information` tab
 6. Save the `index.js` file, open a command prompt in your code's directory and run `node .`
-
-### Examples
-![Custom Rich Presence on Discord](https://imgur.com/a/D5wrnlF)
